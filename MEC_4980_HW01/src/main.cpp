@@ -34,6 +34,7 @@ void setup() {
   pinMode(yellowLED,OUTPUT);
   pinMode(greenLED,OUTPUT);
   pinMode(blueLED,OUTPUT);
+  Serial.begin(9600);
   }
 
 void loop() {
